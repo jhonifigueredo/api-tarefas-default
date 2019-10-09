@@ -3,7 +3,7 @@ use db_tarefas;
 
 create table usuarios(
   id      int             not null  auto_increment,
-  email   varchar(200)    not null  unique,  
+  email   varchar(200)    not null,  
   senha   varchar(200)    not null,
   primary key (id)
 );
